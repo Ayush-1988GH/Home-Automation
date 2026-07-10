@@ -1,0 +1,70 @@
+=========================================================================
+ IoT HOME AUTOMATION SYSTEM - COMPLETE COMPONENTS LIST
+ Project by: Ayush Patel
+=========================================================================
+
+----------------------------------------------------------------
+| SECTION 1: CORE ELECTRONICS                                  |
+----------------------------------------------------------------
+|S.No | Component                                        | Qty |
+------|--------------------------------------------------|-----|
+|1    | ESP8266 NodeMCU CP2102 Board                     |  1  |
+|2    | 4-Channel Isolated 5V 10A Relay Module           |  1  |
+|3    | White Micro USB Cable (for uploading code)       |  1  |
+----------------------------------------------------------------
+
+------------------------------------------------------------------
+| SECTION 2: POWER SUPPLY / PROTECTION CIRCUIT                   |
+------------------------------------------------------------------
+|S.No | Component                                          | Qty |
+------|----------------------------------------------------|-----|
+|4    | Hi-Link HLK-5M05 5V/5W Switch Power Supply Module  |  1  |
+|5    | 5x20mm 250V 1A Glass Tube Fuse                     |  1  |
+|6    | 14D471K Plugin Varistor (MOV, 385-517V clamp)      |  1  |
+|7    | 470uF 16V Electrolytic Capacitor                   |  1  |
+|8    | 1000pF 50V Ceramic Capacitor                       |  1  |
+|9    | 2-Pin 5.08mm Screw Terminal Block Connector        |  2  |
+|10   | 6x8cm Universal PCB Prototype Board                |  1  |
+|11   | PBS-11A 12mm Self-Locking Push Button Switch       |  1  |
+------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+| SECTION 3: SWITCHBOARD / MAINS HARDWARE                               |
+-------------------------------------------------------------------------
+|S.No | Component                                            | Qty      |
+------|------------------------------------------------------|-----------
+|12   | Modular Switchboard (3/4 sockets + switches)         | 1        |
+|13   | Screw connector blocks (for L,N,E bus)               | 8-10     |
+|14   | 14-18 AWG mains-rated wire (Live / Neutral / Earth)  | as needed|
+|15   | Heat shrink tubing                                   | as needed|
+|16   | MCB / mains plug with cord                           | 1        |
+-------------------------------------------------------------------------
+
+---------------------------------------------------------------------
+| SECTION 4: TOOLS USED                                             |
+---------------------------------------------------------------------
+|S.No | Tool                                                        |
+------|--------------------------------------------------------------
+|17   | Soldering KIT                                               |
+|18   | Wire stripper / cutter                                      |
+|19   | Screwdriver set (for terminal blocks / switchboard)         |
+|20   | Multimeter                                                  |
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+| SECTION 5: SOFTWARE / CLOUD SERVICES                              |
+---------------------------------------------------------------------
+|S.No | Tool                                                        |
+------|-------------------------------------------------------------- 
+|21   | Arduino IDE (with ESP8266 board package)                    |
+|22   | Libraries: SinricPro, ArduinoJson v6.21.5, WiFiManager      |
+|23   | SinricPro Web Dashboard (free tier - 3 Switch devices)      |
+|24   | Google Voice Assisstant & Home app (linked to SinricPro )   |
+---------------------------------------------------------------------
+
+
+=========================================================================
+| NOTE: Section 2 components form the custom AC-DC power supply module  |
+| that powers the ESP8266 + relay module directly from 230V AC mains,   |
+| replacing the need for a USB wall adapter.                            |
+=========================================================================  
